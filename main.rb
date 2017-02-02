@@ -1,8 +1,4 @@
-def random(limit)
-    randNo = rand(limit)
-    return randNo
-end
-
+require "Function_Library.rb"
 puts "How many choices do you want to have?"
 choiseNum = gets.chomp
 result = Integer(choiseNum) rescue false
