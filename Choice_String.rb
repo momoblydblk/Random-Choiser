@@ -22,6 +22,6 @@ while x < choiseNum
     puts "Added"
     x += 1
 end
-finalResultNo = random(choiseNum)
+finalResultNo = random(0,choiseNum)
 finalResult = allChoise[finalResultNo]
 puts finalResult

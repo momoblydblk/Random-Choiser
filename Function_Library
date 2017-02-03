@@ -1,6 +1,0 @@
-# Function Libraby
-#Basic Random Function
-def random(limit)
-    randNo = rand(limit)
-    return randNo
-end
